@@ -3,6 +3,7 @@ import Header from '../components/Header'
 import DesertAdventuresCards from '../components/DesertAdventuresCards'
 import Reviews from '../components/Reviews'
 import TextArea from '../components/TextArea'
+import Faq from '../components/Faq'
 
 
 const home = () => {
@@ -12,6 +13,8 @@ const home = () => {
         <DesertAdventuresCards/>
         <Reviews/>
         <TextArea/>
+        <Faq/>
+       
     </>
   )
 }
