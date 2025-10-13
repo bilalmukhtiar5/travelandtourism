@@ -12,8 +12,8 @@ const Header = () => {
       frameBorder="100"
       allow="autoplay; encrypted-media"
       allowFullScreen
-      className="w-100 h-100 object-fit-cover"
-    ></iframe>
+      className="w-100 h-100 object-fit-cover">
+    </iframe>
   </div>
 
   {/* 🔹 Overlay (optional) */}
