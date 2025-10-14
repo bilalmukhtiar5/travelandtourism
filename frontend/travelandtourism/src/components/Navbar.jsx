@@ -6,7 +6,7 @@ const navbar = () => {
             <nav class="navbar bg-light">
                 <div class="container d-flex justify-content-between align-items-center py-1">
                     <div>
-                        <h4>Logo</h4>
+                        <a href='/'>Logo</a>
                     </div>
                     <div>
                         <ul class="nav">

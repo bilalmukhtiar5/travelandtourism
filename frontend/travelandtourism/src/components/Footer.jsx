@@ -7,8 +7,8 @@ import { FaYoutube } from "react-icons/fa";
 const Footer = () => {
   return (
     <section className="container-fluid bg-light p-5">
-      <div className="container">
-        <div className="row text-center text-lg-start">
+      <div className="container text-center text-md-start">
+        <div className="row d-flex justify-content-center text-center">
 
           {/* Logo & About */}
           <div className="col-lg-3 col-md-6 mb-4">
@@ -19,23 +19,21 @@ const Footer = () => {
               height={100}
               className="mb-3"
             />
-            <p className="small text-muted">
+            <p className="text-center ms-5">
               Royal Adventure Travel & Tourism is a licensed company registered with the Dubai Economic Department.
             </p>
-            <div className='gx-3 d-flex justify-content-center justify-content-lg-start gap-3 fs-4'>
+            <div className='gx-3 d-flex justify-content-center gap-3 fs-4'>
               <FaFacebook />
             <FaInstagram />
             <FaTiktok />
             <FaYoutube />
             </div>
-            
-
           </div>
 
           {/* Browse */}
           <div className="col-lg-3 col-md-6 mb-4">
             <h5 className="fw-bold mb-3">Browse</h5>
-            <p className="mb-1">Home</p>
+            <a className="mb-1" href="/contact-us">Contact Us</a>
             <p className="mb-1">About Us</p>
             <p className="mb-1">Services</p>
           </div>
