@@ -1,39 +1,40 @@
-import React from 'react'
+import React from 'react';
+import { Navbar, Nav, NavDropdown, Container, Button } from 'react-bootstrap';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
-const navbar = () => {
-    return (
-        <>
-            <nav class="navbar bg-light">
-                <div class="container d-flex justify-content-between align-items-center py-1">
-                    <div>
-                        <a href='/'>Logo</a>
-                    </div>
-                    <div>
-                        <ul class="nav">
-                            <li class="nav-item">
-                                <a class="nav-link" href="/">Home</a>
-                            </li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" id="dubaiDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                    Dubai
-                                </a>
-                                <ul class="dropdown-menu" aria-labelledby="dubaiDropdown">
-                                    <li><a class="dropdown-item" href="about-us">About Us</a></li>
-                                    <li><a class="dropdown-item" href="#">Burj Khalifa Tour</a></li>
-                                    <li><a class="dropdown-item" href="#">City Tour</a></li>
-                                    <li><a class="dropdown-item" href="#">Luxury Packages</a></li>
-                                </ul>
-                            </li>
-                        </ul>
-                    </div>
-                    <div>
-                        <button class="btn btn-primary">Enquire Now!</button>
-                    </div>
-                </div>
-            </nav>
+const MyNavbar = () => {
+  return (
+    <Navbar expand="lg" bg="light" className="shadow-sm py-2">
+      <Container>
+        {/* Logo Section */}
+        <Navbar.Brand href="/" className="fw-bold fs-4 text-primary">
+          Royal Adventure
+        </Navbar.Brand>
 
-        </>
-    )
-}
+        {/* Toggle for mobile */}
+        <Navbar.Toggle aria-controls="basic-navbar-nav" />
 
-export default navbar
+        {/* Collapsible Menu */}
+        <Navbar.Collapse id="basic-navbar-nav">
+          <Nav className="mx-auto">
+            <Nav.Link href="/" className="mx-2">Home</Nav.Link>
+            <NavDropdown title="Dubai" id="dubaiDropdown" className="mx-2">
+              <NavDropdown.Item href="/about-us">About Us</NavDropdown.Item>
+              <NavDropdown.Item href="/dubai-desert-safari">Dubai Desert Safari</NavDropdown.Item>
+              <NavDropdown.Item href="#">City Tour</NavDropdown.Item>
+              <NavDropdown.Item href="#">Luxury Packages</NavDropdown.Item>
+            </NavDropdown>
+            <Nav.Link href="/contact-us" className="mx-2">Contact</Nav.Link>
+          </Nav>
+
+          {/* Right side button */}
+          <Button variant="primary" className="ms-lg-3 px-4">
+            Enquire Now!
+          </Button>
+        </Navbar.Collapse>
+      </Container>
+    </Navbar>
+  );
+};
+
+export default MyNavbar;
