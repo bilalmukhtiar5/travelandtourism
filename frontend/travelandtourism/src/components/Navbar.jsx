@@ -22,6 +22,7 @@ const MyNavbar = () => {
             <NavDropdown title="Dubai" id="dubaiDropdown" className="mx-2">
               <NavDropdown.Item href="/about-us">About Us</NavDropdown.Item>
               <NavDropdown.Item href="/dubai-desert-safari">Dubai Desert Safari</NavDropdown.Item>
+              <NavDropdown.Item href="/dune-buggy-dubai-safari">Dune Buggy Dubai Safari</NavDropdown.Item>
               <NavDropdown.Item href="#">City Tour</NavDropdown.Item>
               <NavDropdown.Item href="#">Luxury Packages</NavDropdown.Item>
             </NavDropdown>
