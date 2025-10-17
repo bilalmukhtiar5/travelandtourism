@@ -59,7 +59,7 @@ const DuneBuggyDubaiSafariCards = [
         title: "60 Mins Can-am 1000cc Buggy Adventure (Without Transfer)",
         description: "Experience the thrill of riding through Dubai’s desert landscapes on a guided Polaris RZR XP 1000cc Buggy Adventure. Safety, excitement, and",
         price: "Dubai From AED 550 / 2 Seater Buggy",
-        image: "https://royaladventure.com/wp-content/uploads/elementor/thumbs/CAN-AM-1000cc-Buggy-Adventure-2-1-r7qowx1fs113c6trs02ty8kez9uh2ja6tcs0fdx2u8.webp",
+        image: "https://royaladventure.com/wp-content/uploads/elementor/thumbs/CAN-AM-1000cc-Buggy-Adventure-1-r7qowv5recyioywi2z9kt91hsi3qn52q53h1gtzv6o.webp",
         Button: "Book Now"
     },
 ]
