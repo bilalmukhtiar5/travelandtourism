@@ -34,8 +34,9 @@ const Footer = () => {
           <div className="col-lg-3 col-md-6 mb-4">
             <h5 className="fw-bold mb-3">Browse</h5>
             <a className="mb-1" href="/contact-us">Contact Us</a> <br/>
-            <a className="mb-1" href="/dubai-desert-safari">Dubai Desert Safari</a>
-            <p className="mb-1">About Us</p>
+            <a className="mb-1" href="/dubai-desert-safari">Dubai Desert Safari</a> <br />
+            <a className="mb-1" href="/about-us">About Us</a>
+            
             <p className="mb-1">Services</p>
           </div>
 
